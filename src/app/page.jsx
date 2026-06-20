@@ -94,7 +94,7 @@ export default function Home() {
       <section className="py-16 sm:py-24">
         <div className="mx-auto max-w-6xl px-6 text-black">
           <div className="flex flex-col items-start gap-10 md:flex-row lg:gap-20">
-            <div className="flex max-w-xl flex-col justify-center">
+            <div className="order-2 flex max-w-xl flex-col justify-center md:order-1">
               <h2 className="text-3xl tracking-[0.04em] sm:text-4xl sm:tracking-[0.10em]">
                 <b>Sophisticated</b> Style for
               </h2>
@@ -111,7 +111,7 @@ export default function Home() {
               </p>
             </div>
 
-            <div className="w-full md:w-auto">
+            <div className="order-1 w-full md:order-2 md:w-auto">
               <img
                 src="/images/sec hero.jpg"
                 alt=""
